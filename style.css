@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav,
+.nav, a{
+    display: flex;
+    background-color: #d87093;
+    color: whitesmoke;
+    padding: 15px;
+    justify-content: space-evenly;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+nav{
+position: sticky;
+  top: 0;
+  background: #d87093;
+  padding: 15px;
+  
+}
+
+h2 {
+    padding: 25px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image img {
+    width: 100%;
+    opacity: 0.7;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.image .txt {
+    color: palevioletred;
+    font-size: 30px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    white-space: nowrap;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    transform: translate(-70%, -70%);
+}
+
+.service {
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: black;
+  width: 500px;
+  margin: 3px auto;
+}
+
+.container{
+    background-color:lightpink;
+    display: block;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+
+div h3{
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+
+.container,.box{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.box div{
+    width: 25px;
+    margin:20px ;
+    background-color: white;
+    height: 350px;
+    width: 1000px;
+    text-align: center;
+    margin-top: 20px;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box img{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.clinic{
+    background-color:white;
+    display: block;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+}
+.clinic h2{
+    padding: 40px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clinic hr{
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 500px;
+  margin: 5px auto;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button a{
+  background-color: #d1789c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about{
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container2{
+    background-color:lightpink;
+    display: block;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+.logos{
+
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.logos img{
+    width: 70px;
+    height: 70px;
+}
